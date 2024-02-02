@@ -25,12 +25,13 @@ body {
 }
 
 #informacoes-faixa {
+    width: 100%;
     margin: 30px;
 }
 
 #faixa,
 #nome-author {
-    margin: 2px;
+    margin: 9px;
 }
 
 #proximo {
