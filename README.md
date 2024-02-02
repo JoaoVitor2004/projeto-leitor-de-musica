@@ -2,7 +2,8 @@
 
 Projeto leitor de música com controle de música podendo pausar despausar avançar e voltar, com tres músicas do cantor post malone
 
-https://github.com/JoaoVitor2004/projeto-leitor-de-musica/assets/143558833/527b6c08-d9fb-44e3-a645-5405eac83b98
+![Player de música - Google Chrome 2024-02-02 01 49](https://github.com/JoaoVitor2004/projeto-leitor-de-musica/assets/143558833/ef27d07c-0936-4eef-a8f8-588e0f02e9dd)
+
 
 ## 🛠 Ferramenta e tecnologias utilizadas
 
@@ -12,5 +13,5 @@ https://github.com/JoaoVitor2004/projeto-leitor-de-musica/assets/143558833/527b6
   - CSS
   - JAVASCRIPT
 
-<p>🔗 Link para acessar o <a>site</a></p>
+<p>🔗 Link para acessar o <a href="https://joaovitor2004.github.io/projeto-leitor-de-musica/">site</a></p>
 
