@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de música</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="src/favicon/musical.png" type="image/x-icon">
+</head>
+<body>
+    <main class="container-aplicativo">
+        <img id="capa" src="images/Capa-musica-1.avif" alt="autor dom-casmurro">
+        <div id="informacoes-faixa">
+            <p id="faixa">Música 1</p>
+            <p id="nome-author">Post Malone</p>
+        </div>
+        <audio loop id='audio' src="audio/postmalone/1.mp3"></audio>
+        <div id="container-botoes">
+            <button id="anterior" class="bi bi-skip-start-fill"></button>
+            <button id='play-pause' class="bi bi-play-circle-fill"></button>
+            <button id="proximo" class="bi bi-skip-end-fill"></button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

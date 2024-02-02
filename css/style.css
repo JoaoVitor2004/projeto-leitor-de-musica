@@ -1,0 +1,99 @@
+body {
+    background-color: #073A53;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #d6d6ea;
+    text-align: center;
+    overflow: hidden;
+    background-size: 100% 400%;
+    font-family: 'adventure', sans-serif;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: adventure;
+    src: url(../fonts/Adventure.otf) format(truetype);
+}
+
+.container-aplicativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#informacoes-faixa {
+    margin: 30px;
+}
+
+#faixa,
+#nome-author {
+    margin: 2px;
+}
+
+#proximo {
+    transition: 0.2s ease-in-out;
+}
+
+#proximo:hover {
+    transform: scale(1.2);
+}
+
+#anterior {
+    transition: 0.2s ease-in-out;
+}
+
+#anterior:hover {
+    transform: scale(1.2);
+}
+
+#play-pause {
+    transition: 0.2s ease-in-out;
+}
+
+#play-pause:hover {
+    transform: scale(1.2);
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#informacoes-faixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+#anterior,
+#proximo {
+    font-size: 3rem;
+}
+
+#play-pause {
+    font-size: 4rem;
+}
+
+#container-botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
