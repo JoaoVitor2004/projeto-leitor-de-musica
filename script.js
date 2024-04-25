@@ -8,6 +8,7 @@ const img = document.getElementById('capa')
 const quant = 3
 let taTocando = 0
 let musicaAtual = 1
+let imagemAtual = 1
 
 function tocarFaixa() {
     audio.play();
@@ -34,10 +35,13 @@ function tocarOuPausar() {
 function avancarFaixa() {
     if (musicaAtual === quant) {
         musicaAtual = 1
+        imagemAtual = 1
     } else {
         musicaAtual += 1
+        imagemAtual += 1
     }
     audio.src = 'audio/postmalone/' + musicaAtual + '.mp3'
+    img.src = 'images/' + imagemAtual + '.jpg'
     tocarFaixa();
     nomeMusica.innerText = 'Música ' + musicaAtual
 }
@@ -45,10 +49,13 @@ function avancarFaixa() {
 function voltarfaixa() {
     if (musicaAtual === 1) {
         musicaAtual = quant
+        imagemAtual = quant
     } else {
         musicaAtual -= 1
+        imagemAtual -= 1
     }
     audio.src = 'audio/postmalone/' + musicaAtual + '.mp3'
+    img.src = 'images/' + imagemAtual + '.jpg'
     tocarFaixa()
     nomeMusica.innerText = 'Música ' + musicaAtual
 }
