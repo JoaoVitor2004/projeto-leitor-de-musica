@@ -33,7 +33,8 @@ function tocarOuPausar() {
 }
 
 function avancarFaixa() {
-    if (musicaAtual === quant) {
+
+    if (musicaAtual >= quant) {
         musicaAtual = 1
         imagemAtual = 1
     } else {

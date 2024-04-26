@@ -1,7 +1,5 @@
 body {
-    background-image: linear-gradient(to left, #073A53, #C74B31, #959596);
-    background-size: 400% 100%;
-    animation: slide 10s linear alternate infinite;
+    background: linear-gradient(to right, #073A53, #073A53, #959596);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -112,4 +110,14 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+#play-pause {
+    width: 100px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#play-pause:hover {
+    transform: scale(1.2);
 }
