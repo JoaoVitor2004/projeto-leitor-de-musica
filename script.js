@@ -37,9 +37,15 @@ function avancarFaixa() {
     if (musicaAtual >= quant) {
         musicaAtual = 1
         imagemAtual = 1
+        document.body.style.backgroundImage = 'linear-gradient(to right, #073A53, #073A53)'
     } else {
         musicaAtual += 1
         imagemAtual += 1
+        if (musicaAtual === 2) {
+            document.body.style.backgroundImage = 'linear-gradient(to right, #C7492F, #000)'
+        } else if (musicaAtual === 3) {
+            document.body.style.backgroundImage = 'linear-gradient(to right, #F1C856, #000)'
+        }
     }
     audio.src = 'audio/postmalone/' + musicaAtual + '.mp3'
     img.src = 'images/' + imagemAtual + '.jpg'
@@ -51,9 +57,15 @@ function voltarfaixa() {
     if (musicaAtual === 1) {
         musicaAtual = quant
         imagemAtual = quant
+        document.body.style.backgroundImage = 'linear-gradient(to right, #F1C856, #000)'
     } else {
         musicaAtual -= 1
         imagemAtual -= 1
+        if (musicaAtual === 2) {
+            document.body.style.backgroundImage = 'linear-gradient(to right, #C7492F, #000)'
+        } else if (musicaAtual === 1) {
+            document.body.style.backgroundImage = 'linear-gradient(to right, #073A53, #073A53)'
+        }
     }
     audio.src = 'audio/postmalone/' + musicaAtual + '.mp3'
     img.src = 'images/' + imagemAtual + '.jpg'

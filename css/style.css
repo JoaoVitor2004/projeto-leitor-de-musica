@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(to right, #073A53, #073A53, #959596);
-    height: 100vh;
+    height: 92vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -27,6 +27,21 @@ body {
     }
 }
 
+@keyframes sk-stretchdelay {
+
+    0%,
+    40%,
+    100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }
+
+    20% {
+        transform: scaleY(1.0);
+        -webkit-transform: scaleY(1.0);
+    }
+}
+
 .container-aplicativo {
     display: flex;
     flex-direction: column;
@@ -35,12 +50,47 @@ body {
 
 #informacoes-faixa {
     width: 100%;
-    margin: 30px;
+    margin: 30px 0 50px 0;
 }
 
-#faixa,
-#nome-author {
+#faixa {
     margin: 9px;
+}
+
+.spinner {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    margin: 10px 0 0 0;
+}
+
+.spinner>div {
+    background-color: #fff;
+    height: 100%;
+    width: 10px;
+    display: inline-block;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
 }
 
 #proximo {
