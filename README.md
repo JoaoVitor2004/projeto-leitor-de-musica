@@ -2,7 +2,7 @@
 
 Projeto leitor de música com controle podendo pausar despausar avançar e voltar, com tres músicas do cantor post malone
 
-![Captura tela](https://github.com/JoaoVitor2004/projeto-leitor-de-musica/assets/143558833/815a0b1e-79e5-46c5-90bf-84ed7637c19b)
+![captura 4](https://github.com/JoaoVitor2004/projeto-leitor-de-musica/assets/143558833/178ce6f3-e657-4428-ba0d-3afccad322ff)
 
 ## 🛠 Ferramenta e tecnologias utilizadas
 
