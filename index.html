@@ -13,16 +13,8 @@
 <body>
     <main class="container-aplicativo">
         <img id="capa" src="images/1.jpg" alt="capa da música">
-        <div id="informacoes-faixa">
-            <marquee behavior="" direction="right" id="faixa">Música 1</marquee>
-            <div class="spinner">
-                <div class="rect1"></div>
-                <div class="rect2"></div>
-                <div class="rect3"></div>
-                <div class="rect4"></div>
-                <div class="rect5"></div>
-            </div>
-        </div>
+        <marquee behavior="" direction="right" id="faixa">GoodBys</marquee>
+        <p id="nome-author">Post malone</p>
         <audio loop id='audio' src="audio/postmalone/1.mp3"></audio>
         <div id="container-botoes">
             <button id="anterior" class="bi bi-skip-start-fill"></button>
@@ -30,7 +22,7 @@
             <button id="proximo" class="bi bi-skip-end-fill"></button>
         </div>
     </main>
-    <script src="script.js"></script>
+    <script src="js/script.js" defer></script>
     <script>
         AOS.init();
     </script>
