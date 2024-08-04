@@ -10,7 +10,7 @@ let musicaAtual = 1;
 let quantidade = 3;
 const corpo = document.body;
 const musicas = [
-    { musica: 'Goodbys', cor: '#073A53', corFont: '#BFC4C5' },
+    { musica: 'Circles', cor: '#073A53', corFont: '#BFC4C5' },
     { musica: 'Pycho', cor: '#E8592F', corFont: '#BFC4C5' },
     { musica: 'Sunflower', cor: '#CCC9CC', corFont: 'black' }
 ];
