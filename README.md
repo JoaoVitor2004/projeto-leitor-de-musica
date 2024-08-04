@@ -1,6 +1,4 @@
-![captura 4](https://github.com/JoaoVitor2004/projeto-leitor-de-musica/assets/143558833/178ce6f3-e657-4428-ba0d-3afccad322ff)
-
-# Leitor de Música
+![capa - leitor de musica](https://github.com/user-attachments/assets/7e74b0c5-e133-4ff6-b115-114e9465f508)
 
 ## 🎯 Introdução
 
